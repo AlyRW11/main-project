@@ -1,0 +1,11 @@
+.container {
+    background: rgb(17, 92, 36);
+    color: white;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: flex-start;
+}

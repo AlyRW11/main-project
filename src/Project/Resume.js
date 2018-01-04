@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Resume extends Component {
     render () {
         return(
-         <div class="container">
+         <div class="container-3">
              <div class="sum">
                 <h2>Summary</h2>
                 <ul>
@@ -12,8 +12,27 @@ class Resume extends Component {
                     <li>Empowered – Leveraged skills and abilities to best support the customers</li>
                     <li>Systems Agility – Highly proficient Microsoft Office Suite </li>
                 </ul>
+             <div class="extra">
+                 <div>
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Spanish - Fluently</li>
+                        <li>English - Fluently</li>
+                        <li>French - Low</li>
+                    </ul>
+                 </div>
+                 <div>
+                    <h2>Education</h2>
+                    <ul>
+                        <li>High School - Taylorsville High Graduate</li>
+                        <li>University of Utah - Business: Project Management</li>
+                        <li>Helio Training - Coding Bootcamp</li>
+                    </ul>
+                 </div>
+             </div>
              </div>
              <div>
+                <h2>Experience</h2>
                 <h3>Verizon Wireless 2010 to Present </h3>
                 <div>
                     <h5>Global Enterprise Advisor 2014 to Present</h5>
