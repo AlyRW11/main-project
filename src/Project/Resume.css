@@ -5,7 +5,7 @@
 
 .extra {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-self: flex-start;
 }
