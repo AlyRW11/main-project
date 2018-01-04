@@ -1,0 +1,32 @@
+ul {
+    list-style-position: inside;
+}
+img {
+    size: 500px;
+}
+.container {
+    background: rgb(17, 92, 36);
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    font-family: Helvetica;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.abt-me{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
