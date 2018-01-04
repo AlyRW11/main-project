@@ -1,7 +1,4 @@
-.container {
-    background: rgb(17, 92, 36);
-    color: white;
-}
+
 
 .extra {
     display: flex;
@@ -9,3 +6,17 @@
     justify-content: space-around;
     align-self: flex-start;
 }
+.roles {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    align-content: left;
+}
+
+/* .roles > div {
+    background:#e0e3e6;
+}
+
+.roles > div:nth-child(odd) {
+    background:#d7dbd8;
+} */
