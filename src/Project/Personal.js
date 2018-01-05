@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './Personal.css'
+// import Particles from 'react-particles-js'
 
 
 class AbtMe extends Component {
+  
     render() {
       return (
-        <div class="container">
+        <div className="container">
+                
           <main class="box">
             <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/26112279_10155249000575686_4928591881282476383_n.jpg?oh=8613a2ebb2bddadc99ddbd8e40ef0d59&oe=5AB23166" alt="" />
             <h1 class="name">Aly R. Wayne</h1>

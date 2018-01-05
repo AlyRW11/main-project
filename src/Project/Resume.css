@@ -13,10 +13,9 @@
     align-content: left;
 }
 
-/* .roles > div {
+.roles > div {
     background:#e0e3e6;
 }
-
 .roles > div:nth-child(odd) {
     background:#d7dbd8;
-} */
+}

@@ -5,9 +5,13 @@ img {
     size: 500px;
 }
 .container {
-    background: rgb(17, 92, 36);
+    background: #061f55;
     color: white;
 }
+.into-animation{
+    background: pink;
+}
+
 .box{
     display: flex;
     flex-direction: row;

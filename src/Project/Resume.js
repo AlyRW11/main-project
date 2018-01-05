@@ -73,9 +73,12 @@ class Resume extends Component {
                     </div>
                  </div>   
              </div>
+             
          </div>
         )
     }
 }
+
+
 
 export default Resume
