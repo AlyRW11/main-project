@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import AbtMe from './Personal.js'
 import Resume from './Resume.js'
 import Pro from './Projects.js'
-import Test from './Test.js'
+import Test from './Testing.js'
 
 
 class Routes extends Component {

@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Personal.css'
-// import Particles from 'react-particles-js'
-
 
 class AbtMe extends Component {
   
