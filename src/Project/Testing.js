@@ -3,91 +3,85 @@ import Particles from 'react-particles-js'
 import './Testing.css'
 
 class Test extends Component {
-    constructor() {
-        super();
-    
-        this.state = {
-          phoneParticles: 25,
-          phoneGrab: 200,
-          tabletParticles: 25,
-          tabletGrab: 300,
-          desktopParticles: 25,
-          desktopGrab: 300
-        };
-      }
+
+    componentDidMount(){
+        const Name ={
+            string: ['<i>Aly R. Wayne</i>^1500'],
+            typeSpeed: 40,
+            backSpeed: 40,
+            smartBackspace: true,
+            loop: true
+        }
+    }
+
     render() {
         return(
-                <Particles className="container"
-                    param={{
-                        particles: {
-                            number: {
-                              value:400,
-                              density: {
+            <Particles className="particle-animation"
+                params={{
+                    particles: {
+                        number: {
+                            value: 100,
+                            density: {
                                 enable: true,
-                                value_area: 800
-                              }
-                            },
-                            color: {
-                              value: '#ffffff'
-                            },
-                            shape: {
-                              type: 'triagle',
-                              stroke: {
-                                width: 0,
-                                color: '#000000'
-                              },
-                              polygon: {
+                                value_area: 1000
+                            }
+                        },
+                        color: {
+                            value: '#13cbf2'
+                        },
+                        shape: {
+                            type: 'edge',
+                            polygon: {
                                 nb_sides: 7
-                              },
-                              image: {
+                            },
+                            image: {
                                 src: 'img/github.svg',
                                 width: 100,
                                 height: 100
-                              }
-                            },
-                            opacity: {
-                              value: 0.5,
-                              random: false,
-                              anim: {
+                            }
+                        },
+                        size: {
+                            value: 5,
+                            random: true,
+                            anim:{
+                                enable: false,
+                                speed:40,
+                                size_min: 0.1,
+                                sync: false
+                            }
+                        },
+                        opacity:{
+                            value:0.5,
+                            random: false,
+                            anim: {
                                 enable: false,
                                 speed: 1,
                                 opacity_min: 0.1,
                                 sync: false
-                              }
-                            },
-                            size: {
-                              value: 3,
-                              random: true,
-                              anim: {
-                                enable: false,
-                                speed: 40,
-                                size_min: 0.1,
-                                sync: false
-                              }
-                            },
-                            line_linked: {
-                              enable: true,
-                              distance: 150,
-                              color: '#ffffff',
-                              opacity: 0.4,
-                              width: 1
-                            },
-                            move: {
-                              enable: true,
-                              speed: 2,
-                              direction: 'none',
-                              random: false,
-                              straight: false,
-                              out_mode: 'out',
-                              bounce: false,
-                              attract: {
+                            }
+                        },
+                        line_linked:{
+                            enable: false,
+                            distance: 120,
+                            color: '#13cbf2',
+                            opacity: 0.4,
+                            width: 1
+                        },
+                        move: {
+                            enable: true,
+                            speed: 6,
+                            direction: 'none',
+                            random: false,
+                            straight: false,
+                            out_mode: 'bounce',
+                            bounce: true,
+                            attract: {
                                 enable: false,
                                 rotateX: 600,
-                                rotateY: 1200
-                              }
+                                rotateY: 1200,
                             }
-                          },
-                          interactivity: {
+                        },
+                        interactivity: {
                             detect_on: 'canvas',
                             events: {
                               onhover: {
@@ -95,34 +89,40 @@ class Test extends Component {
                                 mode: 'repulse'
                               },
                               onclick: {
-                                enable: true,
-                                mode: 'push'
+                                enable: false,
+                                mode: 'remove'
                               },
                               resize: true
                             },
-                            modes: {
-                              grab: {
-                                distance: 100,
-                                line_linked: {
-                                  opacity: 1
+                            modes:{
+                                grab:{
+                                    distance: 400,
+                                    line_linked: {
+                                        opacity:1
+                                    }
+                                },
+                                bubble:{
+                                    distance: 400,
+                                    size: 7,
+                                    opacity: 1,
+                                    duration:2,
+                                    speed: 3, 
+                                },
+                                repulse: {
+                                    distance: 80,
+                                    duration: 0.4
+                                },
+                                push: {
+                                    particles_nb: 4
+                                },
+                                remove: {
+                                    particles_nb: 2
                                 }
-                              },
-                              bubble: {
-                                distance: 400,
-                                size: 40,
-                                duration: 2,
-                                opacity: 0.8,
-                                speed: 3
-                              },
-                              repulse: {
-                                distance: 200,
-                                duration: 0.4
-                              }
                             }
-                          },
-                          retina_detect: true
-                        }}/>
-            
+                        },
+                        retina_detect: true,
+                    }
+                }}/>
         )
     }
 }
