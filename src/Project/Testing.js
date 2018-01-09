@@ -4,16 +4,6 @@ import './Testing.css'
 
 class Test extends Component {
 
-    componentDidMount(){
-        const Name ={
-            string: ['<i>Aly R. Wayne</i>^1500'],
-            typeSpeed: 40,
-            backSpeed: 40,
-            smartBackspace: true,
-            loop: true
-        }
-    }
-
     render() {
         return(
             <Particles className="particle-animation"
@@ -30,7 +20,7 @@ class Test extends Component {
                             value: '#13cbf2'
                         },
                         shape: {
-                            type: 'edge',
+                            type: 'polygon',
                             polygon: {
                                 nb_sides: 7
                             },

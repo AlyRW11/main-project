@@ -13,8 +13,8 @@ class AbtMe extends Component {
             <h1 class="name">Aly R. Wayne</h1>
            <div class="abt-me"> 
           <p>
-            I am 28 years old. Currently working for Verizon Wireless as a 
-            Global Enterprise Advisor. 
+            I am 28 years old. Originally from Mexico. Currently working for Verizon Wireless as a 
+            Global Enterprise Advisor. I am have 2 older siblings. 
           </p>
           <p>
               Some of my interest are:

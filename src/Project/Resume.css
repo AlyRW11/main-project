@@ -3,7 +3,7 @@
 .extra {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-self: flex-start;
 }
 .roles {
@@ -13,9 +13,9 @@
     align-content: left;
 }
 
-.roles > div {
+/* .roles > div {
     background:#e0e3e6;
 }
 .roles > div:nth-child(odd) {
     background:#d7dbd8;
-}
+} */
