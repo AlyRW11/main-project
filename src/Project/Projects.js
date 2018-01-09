@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+
 class Pro extends Component {
+    
     render () {
         return(
-         <p> something will go here</p>
+            <p>Something will go here eventually</p>
         )
     }
 }

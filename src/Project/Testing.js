@@ -3,21 +3,7 @@ import Particles from 'react-particles-js'
 import './Testing.css'
 
 class Test extends Component {
-    state = {
-        
-    }
-
     render() {
-        if(params){
-            Object.deepExtend(pJS, params);
-          }
-        
-          pJS.tmp.obj = {
-            size_value: pJS.particles.size.value,
-            size_anim_speed: pJS.particles.size.anim.speed,
-            move_speed: pJS.particles.move.speed,
-            mode_repulse_distance: pJS.interactivity.modes.repulse.distance
-          }
 
         return(
             <Particles className="particle-animation"
@@ -34,7 +20,7 @@ class Test extends Component {
                             value: '#13cbf2'
                         },
                         shape: {
-                            type: 'polygon',
+                            type: 'edge',
                             polygon: {
                                 nb_sides: 7
                             },
@@ -126,10 +112,7 @@ class Test extends Component {
                         },
                         retina_detect: true,
                     }
-                }}/>
-
-
-                
+                }}/>                
         )
     }
 }
