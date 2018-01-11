@@ -16,7 +16,6 @@ class TestTwo extends Component {
     return(
       <div>
         name should be here
-      
         {this.state.message}
       </div>
     )
